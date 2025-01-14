@@ -1,6 +1,46 @@
 /** @format */
 
+/**
 body {
-  background-color: rgb(111, 238, 111);
+  background-color: rgb(39, 203, 39);
   font-size: 50px;
+}
+
+.button {
+  border: 2px solid black; /* Exempel på en border 
+  border-radius: 10px;
+  font-size: 40px;
+  width: 200px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh; /* Gör så att sidan täcker hela höjden */
+  display: flex; /* Flexbox för att centrera innehållet */
+  justify-content: center; /* Centrerar horisontellt */
+  align-items: center; /* Centrerar vertikalt */
+  background-color: #bae9b3; /* Bakgrundsfärg för bättre visuellt intryck */
+}
+
+.button {
+  border: 2px solid black;
+  background-color: rgb(223, 211, 211);
+  border-radius: 10px;
+  font-size: 40px;
+  width: 200px;
+  height: 100px;
+  display: flex; /* Lägg till detta för att centrera texten i knappen */
+  justify-content: center; /* Centrerar texten horisontellt */
+  align-items: center; /* Centrerar texten vertikalt */
+  cursor: pointer;
 }
